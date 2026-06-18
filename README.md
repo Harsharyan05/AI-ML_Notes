@@ -1,240 +1,343 @@
-# Machine Learning Notes
+# 🧠 Machine Learning Notes
 
-A structured repository containing my Machine Learning learning journey, theory notes, formulas, code snippets, interview preparation material, and project learnings.
+> A structured repository documenting my Machine Learning, Deep Learning, Data Science, and AI Engineering journey.
+
+This repository contains concise notes, formulas, code snippets, interview preparation material, project learnings, and practical implementations collected while studying Machine Learning and Artificial Intelligence.
+
+The primary goal of this repository is to build a strong foundation in AI/ML while creating a long-term revision resource for projects, research, internships, and placements.
 
 ---
 
-## Overview
+## 🎯 Objectives
 
-This repository serves as my personal Machine Learning knowledge base and revision guide. It covers the complete ML workflow from mathematical foundations to advanced topics in Deep Learning and MLOps.
-
-The goal of this repository is to:
-
-- Build strong ML fundamentals
+- Build strong Machine Learning fundamentals
+- Understand the mathematics behind ML algorithms
 - Maintain concise revision notes
-- Document important formulas and concepts
-- Track learning progress
-- Prepare for interviews and placements
-- Support AI/ML project development
+- Prepare for AI/ML interviews and placements
+- Connect theoretical concepts with real-world projects
+- Create a personal AI/ML knowledge base
+- Track learning progress over time
 
 ---
 
-## Repository Structure
+# 📚 Learning Roadmap
 
-```text
-ML_Notes/
-│
-├── Mathematics/
-│   ├── Linear_Algebra/
-│   ├── Probability_Statistics/
-│   └── Calculus/
-│
-├── Python_For_Data_Science/
-│   ├── NumPy/
-│   ├── Pandas/
-│   └── Data_Visualization/
-│
-├── Machine_Learning/
-│   ├── Supervised_Learning/
-│   │   ├── Linear_Regression/
-│   │   ├── Logistic_Regression/
-│   │   ├── Decision_Trees/
-│   │   ├── Random_Forest/
-│   │   ├── SVM/
-│   │   └── XGBoost/
-│   │
-│   ├── Unsupervised_Learning/
-│   │   ├── KMeans/
-│   │   ├── Hierarchical_Clustering/
-│   │   └── PCA/
-│   │
-│   └── Model_Evaluation/
-│
-├── Deep_Learning/
-│   ├── Neural_Networks/
-│   ├── CNN/
-│   ├── RNN/
-│   ├── LSTM/
-│   └── Transformers/
-│
-├── NLP/
-│   ├── Text_Preprocessing/
-│   ├── TF_IDF/
-│   ├── Word_Embeddings/
-│   └── Transformers/
-│
-├── Computer_Vision/
-│   ├── OpenCV/
-│   ├── CNN/
-│   └── Object_Detection/
-│
-├── MLOps/
-│   ├── FastAPI/
-│   ├── Docker/
-│   ├── PostgreSQL/
-│   └── Deployment/
-│
-├── Interview_Preparation/
-│   ├── ML_Interview_Questions/
-│   ├── Statistics/
-│   ├── SQL/
-│   └── Python/
-│
-├── Formulas/
-│
-├── CheatSheets/
-│
-└── Project_Notes/
-    ├── AlphaForge/
-    ├── Churn_Prediction/
-    └── Future_Projects/
-```
+## 1. Mathematics for Machine Learning
+
+### Linear Algebra
+- Vectors
+- Matrices
+- Matrix Operations
+- Eigenvalues & Eigenvectors
+- Singular Value Decomposition (SVD)
+
+### Probability & Statistics
+- Mean, Median, Mode
+- Variance & Standard Deviation
+- Probability Distributions
+- Bayes Theorem
+- Hypothesis Testing
+
+### Calculus
+- Derivatives
+- Partial Derivatives
+- Chain Rule
+- Gradient Descent
 
 ---
 
-## Topics Covered
+## 2. Python for Data Science
 
-### Mathematics for Machine Learning
-- Linear Algebra
-- Probability
-- Statistics
-- Calculus
-- Optimization
-
-### Python for Data Science
+- Python Fundamentals
 - NumPy
 - Pandas
 - Matplotlib
 - Seaborn
+- Data Cleaning
+- Data Manipulation
 
-### Machine Learning
-- Regression Algorithms
-- Classification Algorithms
-- Clustering
-- Feature Engineering
-- Hyperparameter Tuning
-- Model Evaluation
+---
 
-### Deep Learning
-- Artificial Neural Networks
-- Convolutional Neural Networks
-- Recurrent Neural Networks
-- Transformers
+## 3. Machine Learning
 
-### Natural Language Processing
-- Text Cleaning
+### Supervised Learning
+- Linear Regression
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Naive Bayes
+- Decision Trees
+- Random Forest
+- Support Vector Machine (SVM)
+- XGBoost
+
+### Unsupervised Learning
+- K-Means Clustering
+- Hierarchical Clustering
+- Principal Component Analysis (PCA)
+
+### Model Evaluation
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC
+- Cross Validation
+
+### Feature Engineering
+- Encoding
+- Scaling
+- Feature Selection
+- Dimensionality Reduction
+
+---
+
+## 4. Deep Learning
+
+### Artificial Neural Networks (ANN)
+
+- Perceptron
+- Activation Functions
+- Backpropagation
+- Forward Propagation
+
+### Convolutional Neural Networks (CNN)
+
+- Image Classification
+- Feature Extraction
+- Transfer Learning
+
+### Recurrent Neural Networks (RNN)
+
+- Sequential Data
+- Time Series Analysis
+
+### Transformers
+
+- Attention Mechanism
+- BERT
+- Large Language Models (LLMs)
+
+---
+
+## 5. Natural Language Processing (NLP)
+
+- Text Preprocessing
 - Tokenization
+- Stemming
+- Lemmatization
 - TF-IDF
 - Word Embeddings
-- BERT
+- Transformers
+- Sentiment Analysis
 
-### Computer Vision
+---
+
+## 6. Computer Vision
+
+- OpenCV
 - Image Processing
 - CNN Architectures
 - Object Detection
+- Image Classification
 
-### MLOps
+---
+
+## 7. MLOps & Deployment
+
 - FastAPI
 - Docker
 - PostgreSQL
 - Model Deployment
+- API Development
 - Cloud Fundamentals
 
 ---
 
-## Learning Resources
+# 🗂 Repository Structure
+
+```text
+ML_Notes
+│
+├── Mathematics
+│   ├── Linear Algebra
+│   ├── Probability & Statistics
+│   └── Calculus
+│
+├── Python for Data Science
+│   ├── NumPy
+│   ├── Pandas
+│   └── Data Visualization
+│
+├── Machine Learning
+│   ├── Supervised Learning
+│   ├── Unsupervised Learning
+│   ├── Feature Engineering
+│   └── Model Evaluation
+│
+├── Deep Learning
+│   ├── ANN
+│   ├── CNN
+│   ├── RNN
+│   └── Transformers
+│
+├── NLP
+│
+├── Computer Vision
+│
+├── MLOps
+│
+├── Interview Preparation
+│
+├── Formula Sheets
+│
+├── Cheat Sheets
+│
+└── Project Notes
+```
+
+---
+
+# 📝 Note-Taking Structure
+
+Each topic follows a standardized format:
+
+## What?
+Definition and overview.
+
+## Why?
+Why the concept is important.
+
+## How?
+Working mechanism and intuition.
+
+## Mathematics
+Important formulas and derivations.
+
+## Advantages
+Benefits and strengths.
+
+## Limitations
+Weaknesses and constraints.
+
+## Interview Questions
+Frequently asked interview questions.
+
+## Code Implementation
+Python implementation examples.
+
+## Real-World Applications
+Use cases and project integration.
+
+---
+
+# 🚀 Current Learning Sources
 
 ### Machine Learning
-- Andrew Ng Machine Learning Specialization
-- Hands-On Machine Learning by Aurélien Géron
+- CampusX
+- Scikit-Learn Documentation
 
 ### Deep Learning
-- MIT 6.S191 Deep Learning
-- Deep Learning by Ian Goodfellow
+- MIT 6.S191
+- Deep Learning Specialization
 
 ### Mathematics
 - 3Blue1Brown
 - MIT OpenCourseWare
 
----
-
-## Note Format
-
-Each topic follows a structured format:
-
-### What?
-Definition and intuition.
-
-### Why?
-Importance and use cases.
-
-### How?
-Working mechanism and algorithm.
-
-### Advantages
-Benefits and strengths.
-
-### Limitations
-Weaknesses and constraints.
-
-### Formula
-Important mathematical equations.
-
-### Interview Questions
-Frequently asked placement questions.
-
-### Code Snippets
-Implementation examples.
+### Practice
+- Kaggle
+- LeetCode
+- GitHub Projects
 
 ---
 
-## Goals
+# 💡 Project Integration
 
-- Master Machine Learning fundamentals
-- Build strong Deep Learning knowledge
-- Create production-ready AI/ML projects
-- Prepare for AI/ML placements
-- Strengthen research and development skills
-- Maintain a long-term ML knowledge repository
+This repository is not limited to theory.
 
----
+Concepts learned here are applied in projects such as:
 
-## Current Focus
+### AlphaForge
+AI-Powered Cryptocurrency Intelligence Platform
 
-- Machine Learning Foundations
-- Deep Learning
-- MLOps
-- AI Engineering
-- End-to-End ML Projects
+Applications:
+- Time Series Analysis
+- Feature Engineering
+- Market Prediction
+- Model Evaluation
+- Deployment Pipelines
 
----
-
-## Progress Tracking
-
-- [ ] Mathematics
-- [ ] Python for Data Science
-- [ ] Machine Learning
-- [ ] Deep Learning
-- [ ] NLP
-- [ ] Computer Vision
-- [ ] MLOps
-- [ ] Generative AI
-- [ ] Interview Preparation
+Future integrations:
+- NLP Projects
+- Computer Vision Projects
+- Recommendation Systems
+- Generative AI Applications
 
 ---
 
-## Author
+# 📈 Progress Tracker
+
+## Foundations
+- [ ] Linear Algebra
+- [ ] Probability & Statistics
+- [ ] Calculus
+
+## Python & Data Science
+- [ ] NumPy
+- [ ] Pandas
+- [ ] Data Visualization
+
+## Machine Learning
+- [ ] Supervised Learning
+- [ ] Unsupervised Learning
+- [ ] Feature Engineering
+- [ ] Model Evaluation
+
+## Deep Learning
+- [ ] ANN
+- [ ] CNN
+- [ ] RNN
+- [ ] Transformers
+
+## NLP
+- [ ] Text Processing
+- [ ] Embeddings
+- [ ] Transformers
+
+## Computer Vision
+- [ ] OpenCV
+- [ ] CNN
+- [ ] Object Detection
+
+## MLOps
+- [ ] FastAPI
+- [ ] Docker
+- [ ] PostgreSQL
+- [ ] Deployment
+
+---
+
+# 🎓 Long-Term Goals
+
+- Become proficient in Machine Learning and Deep Learning
+- Build production-ready AI applications
+- Publish research work in AI/ML
+- Strengthen problem-solving and analytical skills
+- Prepare for AI/ML internships and placements
+- Develop expertise in MLOps and AI Engineering
+
+---
+
+# 👨‍💻 Author
 
 **Harsh Aryan**
 
-AI/ML Enthusiast | Data Science Learner | AI Engineer Aspirant
+AI/ML Enthusiast • Data Science Learner • AI Engineer Aspirant
 
-GitHub: https://github.com/Harsharyan05
-
-LinkedIn: https://www.linkedin.com/in/harsh-aryan-5894322a6/
-
-Portfolio: https://harsharyanportfolio.netlify.app/
+- GitHub: https://github.com/Harsharyan05
+- LinkedIn: https://www.linkedin.com/in/harsh-aryan-5894322a6/
+- Portfolio: https://harsharyanportfolio.netlify.app/
 
 ---
 
-⭐ If you find these notes helpful, feel free to star the repository.
+⭐ If you find this repository useful, consider giving it a star.
